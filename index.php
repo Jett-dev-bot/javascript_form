@@ -1,4 +1,9 @@
-<form action="/action_page.php">
+<html>
+<head>
+  <title>HATDOG</title>
+</head>
+<body>
+<form action="action_page.php" method="GET">
   <fieldset>
     <legend>Fill-Up Form:</legend>
     <label for="fname">First name:</label>
@@ -10,5 +15,9 @@
     <label for="birthday">Birthday:</label>
     <input type="date" id="birthday" name="birthday"><br><br>
     <input type="submit" value="Submit">
+
+    <input type="Submit" value="Save Record"/>
   </fieldset>
 </form>
+</body>
+</html>
